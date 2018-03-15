@@ -1,4 +1,4 @@
-<h1>Вызовы</h1>
+<h1>Вызовы</h1> <h1>Сайт в папке DIST</h1>
 <p><strong>npm i</strong> -- устанавливаем npm</p>
 <p><strong>bower i</strong> -- устанавливаем зависимости bower(jquery,bootstrap и др.)</p>
 <p><strong>gulp</strong> -- запускаем gulp (scss, watch, browserSync и т.д)</p>
