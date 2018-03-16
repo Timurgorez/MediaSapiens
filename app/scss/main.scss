@@ -335,12 +335,39 @@ button:hover{
 }
 .round-pic{
 	padding-bottom: 35px;
-	img{
-		height: 170px;
-		width: 170px;
-		display: block;
-		margin: 0 auto;
-	}
+
+}
+.img-three, .img-second, .img-first{
+	height: 170px;
+	width: 170px;
+	background-color:  $lblue;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.img-first{
+	background: $lblue url(../img/whitePlant.png) no-repeat 55% 40%;
+}
+.img-second{
+	background: $lblue url(../img/fish1.png) no-repeat 55% 40%;
+}
+.img-three{
+	background: $lblue url(../img/krev.png) no-repeat 45% 55%;
+}
+.img-first:hover{
+	cursor: pointer;
+	border: 3px solid $lblue;
+	background: #fff url(../img/bluePlant.png) no-repeat 55% 40%;
+}
+.img-second:hover{
+	cursor: pointer;
+	border: 3px solid $lblue;
+	background: #fff url(../img/fish2.png) no-repeat 55% 40%;
+}
+.img-three:hover{
+	cursor: pointer;
+	border: 3px solid $lblue;
+	background: #fff url(../img/krevHover.png) no-repeat 45% 55%;
 }
 .opportunities{
 	margin: 0 0 100px;
