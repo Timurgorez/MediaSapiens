@@ -390,10 +390,15 @@ button:hover{
 	display: block;
 	margin: 65px auto 90px;
 }
+.round-text{
+	font-size: 14px;
+	color: $colortext;
+}
 .map{
 	height: 530px;
 	width: 100%;
 	overflow: hidden;
+	padding-left: 0;
 }
 .map-contact{
 	position: absolute;
@@ -413,7 +418,6 @@ button:hover{
 	width: 90%;	
 	left: 0;
 	top: 0;
-	margin-left: 15px;
 	transition: width 1s;
 }
 .map-text{
@@ -432,6 +436,7 @@ button:hover{
 	}
 	p{
 		padding-top: 15px;
+		font-size: 14px;
 		clear:both; 
 	}
 }
